@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.morefilters{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+    height: 104vh;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.morefilters::-webkit-scrollbar{
+    background-color: rgb(245, 246, 247);
+    width: 0px;
+}
+.workmodeul, .locationul, .roleul, .salaryul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.workmodeul>li>input, .locationul>li>input, .roleul>li>input, .salaryul>li>input{
+   margin-right: 5px;
+   width: 15px;
+   height: 15px;
+   cursor: pointer;
+}
+
+.filterline{
+    width: 90%;
+    height: .5px;
+    background-color: rgb(99, 97, 97);
+    margin: 20px 0px 15px 10px ;
+}
+
+.applybtn{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(0, 110, 255);
+    border: 2px solid white;
+    color: white;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.filter-count{
+    display: flex;
+    gap: .6cm;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-count>div{
+    color: rgb(4, 116, 196);
+    font-size: 17px;
+    font-weight: 500;
+}

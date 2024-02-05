@@ -1,0 +1,74 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.bg-body-tertiary{
+  height: 80px;
+  background-color: white !important;
+}
+
+.job{
+  font-size: 30px;
+  font-weight: 555;
+  font-family: sans-serif;
+  color: blue;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.search{
+  font-size: 22px;
+  font-weight: 520;
+  font-family: sans-serif;
+  color: blue;
+  cursor: pointer;
+}
+
+
+
+
+
+  .navlist {
+    font-size: 22px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 10px 10px;
+  }
+  
+  .navlist:hover,
+  .navlist.active {
+    color: blue;
+  }
+  
+  .navlist::after,
+  .navlist.active::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 5px;
+    background-color: blue;
+    transition: 0.3s;
+  }
+  
+  .navlist:hover::after,
+  .navlist.active::after {
+    width: 80%;
+    left: 0;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .navlist:hover::after,
+    .navlist.active::after {
+      width: 10%;
+      left: 0;
+      margin-left: 45%;
+    }
+  }
+  

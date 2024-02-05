@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.search_continer{
+    width: 80%;
+    height: 200px;
+    background-color: red;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.input_continer{
+    width: 95%;
+    height: 80px;
+    margin-left: 2.5%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1cm;
+    padding: 10px;
+}
+
+
+.input{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+}
+
+.icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cancle{
+    color: rgb(106, 104, 104);
+    font-size: 22px;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: .1cm;
+}
+
+
+select{
+    color: rgb(5, 5, 5);
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.lable1{
+    font-size: 18px;
+    font-family: inherit;
+}
+.lable2,.lable3, .resetbtn, .lable4{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.resetbtn{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color:rgb(211, 208, 208) ;    
+}
+
+.resetbtn:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.searchCount{
+    display: flex;
+    color: rgb(4, 4, 105);
+    justify-content: center;
+    margin-top: 15px;
+}

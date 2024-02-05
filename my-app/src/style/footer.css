@@ -1,0 +1,112 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #fff;
+    color: #333; /* Text color on white background */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .footer-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-about {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+  }
+  
+  .social-icon {
+    color: #333; /* Icon color on white background */
+    font-size: 2.5rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 70px;    
+    
+}
+
+.footer-ul>li>a{
+      text-decoration: none;
+      color: black;
+}
+
+
+.footer-ul>li>a:hover{
+     
+      color: blue;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-column h4 {
+    color: #333; /* Heading color on white background */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-bottom {
+    background-color: #eee; /* Light gray background for the bottom section */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footerplay{
+    display: flex;
+    gap: .5cm;
+  }
+
+  .footerplaydiv{
+    margin-right: 100px;
+    padding: 20px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
